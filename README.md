@@ -1,4 +1,4 @@
-# useful-git-commands
+# Useful git-commands
 
 Make branch, checkout to branch, push to remote and track
 
