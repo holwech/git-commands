@@ -20,5 +20,5 @@ git push origin --delete branch_name
 Track remote branch
 
 ```
-git branch --track branch-name origin/branch_name
+git branch --track branch_name origin/branch_name
 ```
