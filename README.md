@@ -16,3 +16,9 @@ Delete branch on remote
 ```
 git push origin --delete communication
 ```
+
+Track remote branch
+
+```
+git branch --track branch-name origin/branch-name
+```
