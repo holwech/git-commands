@@ -28,3 +28,14 @@ Create  a folder and clone into it
 ```
 git clone github.com/repo_url folder_name
 ```
+
+Create a new repository locally and push to remote. (Requires a already made repo on github)
+```
+$ cd folder_name
+$ git init
+$ echo "This is my readme-file. Not required if already initialized on github" > README
+$ git add .
+$ git commit -m "First commit"
+$ git remote add origin https://github.com/username/repo_name.git
+$ git push origin master
+```
