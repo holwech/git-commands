@@ -22,3 +22,9 @@ Track remote branch
 ```
 git branch --track branch_name origin/branch_name
 ```
+
+Create  a folder and clone into it
+
+```
+git clone github.com/repo_url folder_name
+```
