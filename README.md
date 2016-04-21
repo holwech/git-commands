@@ -39,3 +39,8 @@ $ git commit -m "First commit"
 $ git remote add origin https://github.com/username/repo_name.git
 $ git push origin master
 ```
+
+Unstage a commit (unsure about this one, use at own risk)
+```
+git reset --soft HEAD^
+```
