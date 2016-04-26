@@ -26,7 +26,9 @@ or just
 ```
 git checkout branch_name
 ```
+
 Which automatically tracks the branch if the name corresponds to the remote branch name.
+
 ---
 
 #### Initializing and creating new repositories
