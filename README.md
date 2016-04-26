@@ -22,6 +22,12 @@ Track remote branch
 ```
 git branch --track branch_name origin/branch_name
 ```
+or just
+```
+git checkout branch_name
+```
+Which automatically tracks the branch if the name corresponds to the remote branch name.
+
 
 Create  a folder and clone into it
 
