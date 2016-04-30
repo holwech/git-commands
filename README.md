@@ -85,3 +85,25 @@ Unstage a commit (unsure about this one, use at own risk)
 ```
 git reset --soft HEAD^
 ```
+
+#### Tracking, untracking and more, for files and folders
+Files and directory(folder)  are adressed as
+```
+filename
+// or
+folder/
+```
+You have to choose depending on what you want to do.
+In the examples below mostly filename is used for simplicity.
+
+---
+
+Remove file from repository and untrack (Does not delete the actual file)
+```
+git rm --cached filename
+```
+Remove folder from repository and untrack (Does not delete delete the actual folder)
+```
+git rm -r --cached folderName
+```
+Remove the `--cached` to also delete the file/folder.
