@@ -104,6 +104,6 @@ git rm --cached filename
 ```
 Remove folder from repository and untrack (Does not delete delete the actual folder)
 ```
-git rm -r --cached folderName
+git rm -r --cached folder
 ```
 Remove the `--cached` to also delete the file/folder.
